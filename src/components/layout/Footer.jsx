@@ -30,7 +30,7 @@ export default function Footer() {
             <Link to="/" className="inline-block mb-4 cursor-pointer">
               <img src={logoDeepGreen} alt="Creo & Co." className="h-12 w-auto" />
             </Link>
-            <p className="font-body text-sm text-creo-dark/60 leading-relaxed mb-6 max-w-xs">
+            <p className="font-body text-sm text-creo-charcoal/60 leading-relaxed mb-6 max-w-xs">
               {t.footer.tagline}
             </p>
             {/* Social */}
@@ -68,7 +68,7 @@ export default function Footer() {
 
           {/* Company links */}
           <div>
-            <h3 className="font-heading font-600 text-sm uppercase tracking-wider text-creo-dark/40 mb-4">
+            <h3 className="font-accent font-600 text-sm uppercase tracking-wider text-creo-charcoal/40 mb-4">
               {t.footer.links.company}
             </h3>
             <ul className="space-y-2.5" role="list">
@@ -76,7 +76,7 @@ export default function Footer() {
                 <li key={label}>
                   <Link
                     to={href}
-                    className="font-body text-sm text-creo-dark/70 hover:text-creo-primary transition-colors duration-200 cursor-pointer"
+                    className="font-body text-sm text-creo-charcoal/70 hover:text-creo-primary transition-colors duration-200 cursor-pointer"
                   >
                     {label}
                   </Link>
@@ -87,13 +87,13 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-heading font-600 text-sm uppercase tracking-wider text-creo-dark/40 mb-4">
+            <h3 className="font-accent font-600 text-sm uppercase tracking-wider text-creo-charcoal/40 mb-4">
               {t.footer.links.services}
             </h3>
             <ul className="space-y-2.5" role="list">
               {SERVICE_LINKS.map(name => (
                 <li key={name}>
-                  <span className="font-body text-sm text-creo-dark/70">{name}</span>
+                  <span className="font-body text-sm text-creo-charcoal/70">{name}</span>
                 </li>
               ))}
             </ul>
@@ -101,10 +101,10 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-heading font-600 text-sm uppercase tracking-wider text-creo-dark/40 mb-4">
+            <h3 className="font-accent font-600 text-sm uppercase tracking-wider text-creo-charcoal/40 mb-4">
               {t.footer.links.connect}
             </h3>
-            <ul className="space-y-2.5 font-body text-sm text-creo-dark/70" role="list">
+            <ul className="space-y-2.5 font-body text-sm text-creo-charcoal/70" role="list">
               <li>El Paso, TX &amp; Ciudad Juárez, Chih.</li>
               <li>
                 <a href="mailto:hello@creoandco.com" className="hover:text-creo-primary transition-colors duration-200 cursor-pointer">
@@ -132,9 +132,9 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-creo-dark/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="font-body text-xs text-creo-dark/40">{t.footer.legal}</p>
+          <p className="font-body text-xs text-creo-charcoal/40">{t.footer.legal}</p>
           <div className="flex gap-6">
-            <Link to="/privacy" className="font-body text-xs text-creo-dark/40 hover:text-creo-dark/80 transition-colors cursor-pointer">
+            <Link to="/privacy" className="font-body text-xs text-creo-charcoal/40 hover:text-creo-charcoal/80 transition-colors cursor-pointer">
               {t.footer.privacy}
             </Link>
           </div>

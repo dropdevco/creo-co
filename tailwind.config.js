@@ -16,11 +16,13 @@ export default {
           burgundy: '#743A39', // Rooted Ochre
           khaki:    '#B8B781', // Golden Intent
           peach:    '#E8A87C', // Human Peach
+          charcoal: '#171717', // Body Copy Charcoal
         },
       },
       fontFamily: {
         heading: ['Tomato Grotesk', 'Rubik', 'sans-serif'],
-        body:    ['Ceraph', 'Georgia', 'serif'],
+        body:    ['Tomato Grotesk', 'Rubik', 'sans-serif'],
+        accent:  ['Ceraph', 'Georgia', 'serif'],
       },
       animation: {
         'fade-up':    'fadeUp 0.7s ease-out forwards',

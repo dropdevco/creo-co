@@ -28,7 +28,7 @@ const en = {
   },
   industries: {
     heading:  'Built for Your Industry',
-    sub:      'Deep expertise across five key verticals — with messaging that resonates in both languages.',
+    sub:      'Deep expertise across five key verticals, with messaging that resonates in both languages.',
     items: [
       {
         title: 'Economic Development',
@@ -70,7 +70,7 @@ const en = {
       { title: 'Brand Management',      desc: 'Consistent, compelling identity across every channel.' },
       { title: 'Content Creation',      desc: 'Bilingual content that informs, engages, and converts.' },
       { title: 'Social Media Management', desc: 'Community-building and growth on the platforms that matter.' },
-      { title: 'Event Marketing',       desc: 'From concept to execution — events that build your brand.' },
+      { title: 'Event Marketing',       desc: 'Events that build your brand, from concept to execution.' },
       { title: 'Marketing Analysis',    desc: 'Data-driven decisions. Clear reporting. Real accountability.' },
       { title: 'Experiential Marketing',desc: 'Immersive brand experiences that create lasting impressions.' },
       { title: 'Customer Retention',    desc: 'Keep your best clients engaged, loyal, and referring.' },
@@ -84,7 +84,7 @@ const en = {
     sharpenedLabel: 'What this experience sharpened',
     mattersLabel: 'Why it matters',
     throughlineLabel: 'The Throughline',
-    throughline: 'We bridge government, business, and community — designing strategies that align across systems rather than just sectors.',
+    throughline: 'We bridge government, business, and community, designing strategies that align across systems rather than just sectors.',
     sectors: [
       {
         title: 'Public Sector',
@@ -133,6 +133,11 @@ const en = {
     ],
     cta: 'Talk to a Borderplex Specialist',
   },
+  gallery: {
+    label:   'In Action',
+    heading: 'Work in the Community',
+    sub:     'Activations, events, and moments from across the Borderplex.',
+  },
   testimonials: {
     heading: 'What Our Clients Say',
     items: [
@@ -155,10 +160,15 @@ const en = {
   },
   events: {
     heading:    'Events We Support',
-    sub:        'From community activations to investor forums — we help bring people together.',
+    sub:        'From community activations to investor forums, we help bring people together.',
     noEvents:   'No upcoming events. Check back soon.',
     register:   'Register Now',
     learnMore:  'Learn More',
+    upcoming:   'Upcoming Events',
+    past:       'Past Events',
+    noUpcoming: 'No upcoming events at the moment.',
+    noPast:     'No past events recorded.',
+    concluded:  'Concluded',
   },
   cta: {
     heading: 'Why businesses choose Creo & Co.',

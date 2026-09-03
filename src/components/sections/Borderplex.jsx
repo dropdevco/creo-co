@@ -44,16 +44,16 @@ export default function Borderplex() {
         {/* Bottom: text content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
           <ScrollReveal>
-            <p className="font-heading text-xs uppercase tracking-[0.3em] text-creo-teal mb-6">
+            <p className="font-accent text-xs uppercase tracking-[0.3em] text-creo-teal mb-6">
               Borderplex Advantage
             </p>
-            <h2 className="font-heading font-600 text-4xl sm:text-5xl lg:text-6xl text-white mb-4 tracking-tight leading-[0.95]">
+            <h2 className="font-heading font-600 text-5xl sm:text-6xl lg:text-7xl text-white mb-4 tracking-tight leading-[0.95]">
               {t.borderplex.heading}
             </h2>
-            <p className="font-body text-xl sm:text-2xl text-creo-khaki mb-8">
+            <p className="font-body text-lg sm:text-xl text-creo-khaki mb-8">
               {t.borderplex.sub}
             </p>
-            <p className="font-body text-white/60 leading-relaxed">
+            <p className="font-body text-base text-white/60 leading-relaxed">
               {t.borderplex.body}
             </p>
           </ScrollReveal>
@@ -63,7 +63,7 @@ export default function Borderplex() {
               {t.borderplex.points.map((point) => (
                 <li key={point} className="flex items-start gap-3">
                   <CheckCircle size={20} className="text-creo-teal shrink-0 mt-0.5" aria-hidden="true" />
-                  <span className="font-body text-white/80">{point}</span>
+                  <span className="font-body text-base text-white/80">{point}</span>
                 </li>
               ))}
             </ul>
@@ -72,7 +72,7 @@ export default function Borderplex() {
               href="https://links.mylayerone.com/widget/bookings/creoconadriana"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-white text-creo-dark font-heading text-sm uppercase tracking-wider px-8 py-4 rounded-full hover:bg-creo-khaki hover:gap-3 transition-all duration-200 cursor-pointer"
+              className="inline-flex items-center gap-2 bg-white text-creo-dark font-body font-600 text-sm uppercase tracking-wider px-8 py-4 rounded-full hover:bg-creo-khaki hover:gap-3 transition-all duration-200 cursor-pointer"
             >
               {t.borderplex.cta} <ArrowRight size={18} aria-hidden="true" />
             </a>

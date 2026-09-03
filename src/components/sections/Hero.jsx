@@ -102,7 +102,7 @@ export default function Hero() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24">
           <div className="max-w-5xl">
             <p
-              className={`font-body text-sm sm:text-base tracking-[0.3em] text-white/70 uppercase mb-8
+              className={`font-accent text-sm sm:text-base tracking-[0.3em] text-white/70 uppercase mb-8
                 transition-all duration-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
             >
               Bilingual Marketing &bull; Borderplex Region
@@ -180,7 +180,7 @@ export default function Hero() {
             ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
           aria-label="Scroll down"
         >
-          <span className="font-heading text-xs uppercase tracking-[0.2em]">Scroll</span>
+          <span className="font-accent text-xs uppercase tracking-[0.2em]">Scroll</span>
           <ArrowDown size={16} className="animate-bounce" aria-hidden="true" />
         </a>
       </section>

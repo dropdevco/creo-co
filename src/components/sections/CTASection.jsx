@@ -28,13 +28,13 @@ export default function CTASection() {
 
           {/* Left: headline + cal link */}
           <ScrollReveal>
-            <p className="font-heading text-xs uppercase tracking-[0.3em] text-creo-burgundy mb-6">
+            <p className="font-accent text-xs uppercase tracking-[0.3em] text-creo-burgundy mb-6">
               Get Started
             </p>
-            <h2 className="font-heading font-600 text-4xl sm:text-5xl lg:text-6xl text-creo-dark mb-6 tracking-tight">
+            <h2 className="font-heading font-600 text-5xl sm:text-6xl lg:text-7xl text-creo-charcoal mb-6 tracking-tight">
               {t.cta.heading}
             </h2>
-            <p className="font-body text-lg text-creo-dark/70 mb-10 leading-relaxed">
+            <p className="font-body text-lg text-creo-charcoal/70 mb-10 leading-relaxed">
               {t.cta.sub}
             </p>
 
@@ -47,7 +47,7 @@ export default function CTASection() {
               {t.cta.primary} <ArrowRight size={18} aria-hidden="true" />
             </a>
 
-            <p className="font-body text-creo-dark/50 text-sm mt-6 flex items-center gap-2">
+            <p className="font-body text-creo-charcoal/50 text-sm mt-6 flex items-center gap-2">
               <Mail size={14} aria-hidden="true" />
               {t.cta.secondary}
             </p>

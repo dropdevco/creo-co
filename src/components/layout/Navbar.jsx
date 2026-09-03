@@ -51,7 +51,7 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
-        <div className="flex items-center justify-between h-18 lg:h-20">
+        <div className="flex items-center justify-between h-20 pt-2 sm:pt-0 lg:h-20">
 
           {/* Logo */}
           <Link
@@ -73,9 +73,9 @@ export default function Navbar() {
                 <Link
                   to={href}
                   onClick={(e) => handleHashLink(e, href)}
-                  className={`font-heading text-xs uppercase tracking-[0.15em] transition-colors duration-200 cursor-pointer ${
+                  className={`font-body text-xs uppercase tracking-[0.15em] transition-colors duration-200 cursor-pointer ${
                     scrolled
-                      ? 'text-creo-dark hover:text-creo-primary'
+                      ? 'text-creo-charcoal hover:text-creo-primary'
                       : 'text-white/80 hover:text-white'
                   }`}
                 >
@@ -89,7 +89,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-4">
             <button
               onClick={toggle}
-              className={`flex items-center gap-1.5 font-heading text-xs uppercase tracking-[0.15em] transition-colors duration-200 cursor-pointer ${
+              className={`flex items-center gap-1.5 font-body text-xs uppercase tracking-[0.15em] transition-colors duration-200 cursor-pointer ${
                 scrolled
                   ? 'text-creo-muted hover:text-creo-primary'
                   : 'text-white/60 hover:text-white'

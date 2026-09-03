@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
 
 # Editor directories and files
 .vscode/*
@@ -26,3 +27,8 @@ dist-ssr
 # Video Files
 *.mp4
 .vercel
+
+# Raw (unoptimized) carousel source photos — only the optimized/*.webp are committed
+src/assets/carousel-photos/*.jpg
+src/assets/carousel-photos/*.jpeg
+src/assets/carousel-photos/*.png

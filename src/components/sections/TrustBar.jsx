@@ -37,7 +37,7 @@ export default function TrustBar() {
   return (
     <section className="bg-white border-y border-creo-border py-12 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 mb-8 text-center">
-        <p className="font-heading text-xs text-creo-muted uppercase tracking-[0.3em]">
+        <p className="font-accent text-xs text-creo-charcoal/50 uppercase tracking-[0.3em]">
           {t.trust.heading}
         </p>
       </div>

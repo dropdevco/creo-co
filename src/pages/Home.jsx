@@ -5,6 +5,7 @@ import Industries from '../components/sections/Industries'
 import FullStatement from '../components/sections/FullStatement'
 import CaseStudies from '../components/sections/CaseStudies'
 import Borderplex from '../components/sections/Borderplex'
+import Gallery from '../components/sections/Gallery'
 // PENDING: Unhide when client provides testimonials
 // import Testimonials from '../components/sections/Testimonials'
 import Events from '../components/sections/Events'
@@ -20,6 +21,7 @@ export default function Home() {
       <FullStatement />
       <CaseStudies />
       <Borderplex />
+      <Gallery />
       {/* PENDING: Unhide when client provides testimonials */}
       {/* <Testimonials /> */}
       <Events limit={3} />

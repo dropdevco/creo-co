@@ -12,7 +12,7 @@ const es = {
   hero: {
     tagline:    'Estrategia que Mueve Mercados.',
     tagline2:   'Resultados que Puedes Medir.',
-    sub:        'Creo & Co es una firma de marketing bilingüe construida para el Borderplex US-México — entregando estrategia, contenido y ejecución que convierte.',
+    sub:        'Creo & Co es una firma de marketing bilingüe construida para el Borderplex US-México, entregando estrategia, contenido y ejecución que convierte.',
     cta1:       'Agenda una Llamada Gratis',
     cta2:       'Ver Nuestro Trabajo',
     badge:      'Bilingüe · Borderplex · Orientado a Resultados',
@@ -28,7 +28,7 @@ const es = {
   },
   industries: {
     heading:  'Construido para Tu Industria',
-    sub:      'Experiencia profunda en cinco verticales clave — con mensajes que resuenan en ambos idiomas.',
+    sub:      'Experiencia profunda en cinco verticales clave, con mensajes que resuenan en ambos idiomas.',
     items: [
       {
         title: 'Desarrollo Económico',
@@ -64,13 +64,13 @@ const es = {
   },
   services: {
     heading: 'Lo Que Hacemos',
-    sub:     'Estrategia y ejecución bajo un mismo techo — sin intermediarios, sin sorpresas.',
+    sub:     'Estrategia y ejecución bajo un mismo techo, sin intermediarios, sin sorpresas.',
     items: [
       { title: 'Estrategia de Marketing',   desc: 'Hojas de ruta construidas alrededor de tus metas, tu audiencia y tu mercado.' },
       { title: 'Gestión de Marca',          desc: 'Identidad consistente y convincente en cada canal.' },
       { title: 'Creación de Contenido',     desc: 'Contenido bilingüe que informa, engancha y convierte.' },
       { title: 'Redes Sociales',            desc: 'Crecimiento de comunidad en las plataformas que importan.' },
-      { title: 'Marketing de Eventos',      desc: 'Del concepto a la ejecución — eventos que construyen tu marca.' },
+      { title: 'Marketing de Eventos',      desc: 'Eventos que construyen tu marca, del concepto a la ejecución.' },
       { title: 'Analítica de Marketing',    desc: 'Decisiones basadas en datos. Reportes claros. Responsabilidad real.' },
       { title: 'Marketing Experiencial',    desc: 'Experiencias de marca inmersivas que crean impresiones duraderas.' },
       { title: 'Retención de Clientes',     desc: 'Mantén a tus mejores clientes comprometidos, leales y refiriendo.' },
@@ -83,7 +83,7 @@ const es = {
     sharpenedLabel: 'Lo que esta experiencia afinó',
     mattersLabel: 'Por qué importa',
     throughlineLabel: 'El Hilo Conductor',
-    throughline: 'Conectamos gobierno, empresa y comunidad — diseñando estrategias que se alinean a través de sistemas, no solo de sectores.',
+    throughline: 'Conectamos gobierno, empresa y comunidad, diseñando estrategias que se alinean a través de sistemas, no solo de sectores.',
     sectors: [
       {
         title: 'Sector Público',
@@ -122,26 +122,31 @@ const es = {
   },
   borderplex: {
     heading:  'La Ventaja del Borderplex',
-    sub:      'No traducimos — comunicamos.',
-    body:     'La región fronteriza US-México es uno de los corredores económicos más dinámicos de América del Norte. Creo & Co fue construida aquí. Entendemos la cultura, el comercio, el idioma y la oportunidad. Nuestro enfoque binacional le da a tu marca una presencia genuina en ambos lados — no una traducción copia-pega.',
+    sub:      'No traducimos. Comunicamos.',
+    body:     'La región fronteriza US-México es uno de los corredores económicos más dinámicos de América del Norte. Creo & Co fue construida aquí. Entendemos la cultura, el comercio, el idioma y la oportunidad. Nuestro enfoque binacional le da a tu marca una presencia genuina en ambos lados, no una traducción copia-pega.',
     points: [
       'Mensajes bilingües auténticos (EN/ES)',
       'Inteligencia de mercado transfronteriza',
-      'Matiz cultural — no solo traducción',
+      'Matiz cultural, no solo traducción',
       'Redes en ambos lados de la frontera',
     ],
     cta: 'Habla con un Especialista en Borderplex',
+  },
+  gallery: {
+    label:   'En Acción',
+    heading: 'Presencia en la Comunidad',
+    sub:     'Activaciones, eventos y momentos de todo el Borderplex.',
   },
   testimonials: {
     heading: 'Lo que Dicen Nuestros Clientes',
     items: [
       {
-        quote:  'Creo & Co no solo entregó una campaña — entregó claridad. Por primera vez, nuestro mensaje resonó en ambos lados de la frontera.',
+        quote:  'Creo & Co no solo entregó una campaña. Entregó claridad. Por primera vez, nuestro mensaje resonó en ambos lados de la frontera.',
         name:   'María L.',
         role:   'Directora Ejecutiva, ONG Regional',
       },
       {
-        quote:  'El ROI fue claro en 90 días. Estrategia, ejecución y rendición de cuentas — todo de un mismo socio.',
+        quote:  'El ROI fue claro en 90 días. Estrategia, ejecución y rendición de cuentas, todo de un mismo socio.',
         name:   'James R.',
         role:   'CEO, Pequeño Empresario',
       },
@@ -154,10 +159,15 @@ const es = {
   },
   events: {
     heading:   'Eventos que Apoyamos',
-    sub:       'Desde activaciones comunitarias hasta foros de inversión — ayudamos a unir a las personas.',
+    sub:       'Desde activaciones comunitarias hasta foros de inversión, ayudamos a unir a las personas.',
     noEvents:  'Sin eventos próximos. Vuelve pronto.',
     register:  'Regístrate Ahora',
     learnMore: 'Más Información',
+    upcoming:  'Próximos Eventos',
+    past:      'Eventos Pasados',
+    noUpcoming: 'No hay eventos próximos en este momento.',
+    noPast:    'No hay eventos pasados registrados.',
+    concluded: 'Concluido',
   },
   cta: {
     heading: '¿Listo para Crecer?',
