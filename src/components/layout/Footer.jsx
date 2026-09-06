@@ -112,8 +112,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+19155551234" className="hover:text-creo-primary transition-colors duration-200 cursor-pointer">
-                  (915) 555 1234
+                <a href="tel:+19159959818" className="hover:text-creo-primary transition-colors duration-200 cursor-pointer">
+                  (915) 995 9818
                 </a>
               </li>
             </ul>

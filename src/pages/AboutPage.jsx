@@ -3,7 +3,7 @@ import { CheckCircle } from 'lucide-react'
 import ScrollReveal from '../components/ui/ScrollReveal'
 import CTASection from '../components/sections/CTASection'
 import { useLang } from '../contexts/LanguageContext'
-import headshotAdriana from '../assets/team/IMG_5158-2.jpg'
+import headshotAdriana from '../assets/team/adriana-acosta.jpg'
 import headshotRachel from '../assets/team/rachel-ortiz.jpg'
 import headshotPaula from '../assets/team/paula-castro.jpg'
 import heroAbout from '../assets/hero/elpaso2023_andyaustin-5613.jpg'
@@ -149,7 +149,7 @@ export default function AboutPage() {
             <ScrollReveal>
               <div className="text-center">
                 <div className="w-48 h-48 mx-auto rounded-2xl overflow-hidden mb-8 shadow-lg">
-                  <img src={headshotAdriana} alt={`${t.about.team.adriana.name}, ${t.about.team.adriana.role}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                  <img src={headshotAdriana} alt={`${t.about.team.adriana.name}, ${t.about.team.adriana.role}`} className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500" />
                 </div>
                 <h3 className="font-heading font-600 text-2xl text-creo-charcoal">{t.about.team.adriana.name}</h3>
                 <p className="font-accent text-xs uppercase tracking-[0.2em] text-creo-primary mt-2">{t.about.team.adriana.role}</p>
