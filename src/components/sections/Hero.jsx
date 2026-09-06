@@ -16,19 +16,21 @@ export default function Hero() {
     return () => clearTimeout(timer)
   }, [])
 
-  // Lock body scroll during phase 0 and 1
+  // Lock body scroll during phase 0 and 1. Keyed on the locked/unlocked
+  // boolean rather than the raw phase so this doesn't tear down and
+  // reapply overflow:hidden on the 0->1 transition too — that brief
+  // unlock let real scroll leak through mid-gesture and pop the parallax
+  // image once phase 2 caught up.
+  const locked = phase < 2
   useEffect(() => {
-    if (phase < 2) {
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style.overflow = ''
-    }
+    document.body.style.overflow = locked ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
-  }, [phase])
+  }, [locked])
 
   // Parallax on scroll (only active after unlock)
   useEffect(() => {
     if (phase < 2) return
+    setScrollY(window.scrollY)
     const onScroll = () => setScrollY(window.scrollY)
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)

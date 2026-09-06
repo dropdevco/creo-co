@@ -19,8 +19,8 @@ const en = {
   },
   stats: {
     years:      'Years of service',
-    bilingual:  'Bilingual English-Spanish',
-    regions:    'Multi-Region',
+    bilingual:  'Bilingual English and Spanish',
+    regions:    'Multiple Regions',
     strategic:  'Strategic Insight',
   },
   trust: {
@@ -37,7 +37,7 @@ const en = {
       },
       {
         title: 'Nonprofits',
-        desc:  'Mission-driven messaging that moves funders, volunteers, and communities to act.',
+        desc:  'Messaging rooted in mission that moves funders, volunteers, and communities to act.',
         icon:  'Heart',
       },
       {
@@ -64,14 +64,14 @@ const en = {
   },
   services: {
     heading: 'Our Marketing Services',
-    sub:     'Choose full support or exactly what you need. You can work with Creo & Co. as your all‑in marketing partner or select à‑la‑carte services. Either way, everything is designed to integrate seamlessly.',
+    sub:     'Choose full support or exactly what you need. You can work with Creo & Co. as your all in marketing partner or select à la carte services. Either way, everything is designed to integrate seamlessly.',
     items: [
       { title: 'Marketing Strategy',    desc: 'Roadmaps built around your goals, your audience, and your market.' },
       { title: 'Brand Management',      desc: 'Consistent, compelling identity across every channel.' },
       { title: 'Content Creation',      desc: 'Bilingual content that informs, engages, and converts.' },
-      { title: 'Social Media Management', desc: 'Community-building and growth on the platforms that matter.' },
+      { title: 'Social Media Management', desc: 'Growing community on the platforms that matter.' },
       { title: 'Event Marketing',       desc: 'Events that build your brand, from concept to execution.' },
-      { title: 'Marketing Analysis',    desc: 'Data-driven decisions. Clear reporting. Real accountability.' },
+      { title: 'Marketing Analysis',    desc: 'Decisions driven by data. Clear reporting. Real accountability.' },
       { title: 'Experiential Marketing',desc: 'Immersive brand experiences that create lasting impressions.' },
       { title: 'Customer Retention',    desc: 'Keep your best clients engaged, loyal, and referring.' },
       { title: 'Customer Expansion',    desc: 'Strategic initiatives designed to grow your audience and market share.' },
@@ -88,33 +88,33 @@ const en = {
     sectors: [
       {
         title: 'Public Sector',
-        scope: 'City & County-Level Experience',
+        scope: 'City & County Level Experience',
         points: [
           'Alignment under scrutiny',
-          'Policy-informed communication',
+          'Communication informed by policy',
           'Clear translation of complex initiatives',
-          'Cross-department coordination',
+          'Coordination across departments',
         ],
         why: 'We understand how strategies move through government systems and how to make them hold.',
       },
       {
         title: 'Nonprofit & Community',
-        scope: 'Mission-Driven Organizations',
+        scope: 'Mission Driven Organizations',
         points: [
           'Mission clarity without compromise',
-          'Resource-conscious strategy',
-          'Trust-centered engagement',
-          'Long-term partnership building',
+          'Strategy mindful of resources',
+          'Engagement centered on trust',
+          'Partnership building for the long term',
         ],
-        why: 'We transform under-recognized impact into visible, credible authority.',
+        why: 'We transform impact that goes unrecognized into visible, credible authority.',
       },
       {
         title: 'Private Sector',
-        scope: 'Multi-Industry Work',
+        scope: 'Work Across Multiple Industries',
         points: [
-          'Revenue-aligned storytelling',
+          'Storytelling aligned to revenue',
           'Market differentiation',
-          'Retention-driven growth systems',
+          'Growth systems driven by retention',
           'Strategic agility',
         ],
         why: 'We turn clarity into momentum and momentum into measurable growth.',
@@ -124,11 +124,11 @@ const en = {
   borderplex: {
     heading:  'The Borderplex Advantage',
     sub:      'Built for bilingual markets.',
-    body:     'Creo & Co. works alongside organizations as a long-term strategic partner, offering clear, grounded marketing guidance rooted in listening, context, and integrity. We help bring focus to complexity, align messaging with mission, and guide decisions that lead to sustainable growth and meaningful impact.',
+    body:     'Creo & Co. works alongside organizations as a strategic partner for the long term, offering clear, grounded marketing guidance rooted in listening, context, and integrity. We help bring focus to complexity, align messaging with mission, and guide decisions that lead to sustainable growth and meaningful impact.',
     points: [
       'Strategy + execution under one roof',
       'Authentic bilingual messaging (EN/ES)',
-      'Cross-border market intelligence',
+      'Market intelligence across the border',
       'Networks on both sides of the border',
     ],
     cta: 'Talk to a Borderplex Specialist',
@@ -172,7 +172,7 @@ const en = {
   },
   cta: {
     heading: 'Why businesses choose Creo & Co.',
-    sub:     'Zero‑risk mindset: Clear scope, transparent pricing, no surprises. Fix root problems, not surface symptoms.',
+    sub:     'Zero risk mindset: Clear scope, transparent pricing, no surprises. Fix root problems, not surface symptoms.',
     primary: 'Discuss Your Marketing Needs',
     secondary: 'Contact Us for Custom Campaigns',
     form: {

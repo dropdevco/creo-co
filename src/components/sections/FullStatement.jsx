@@ -40,7 +40,7 @@ export default function FullStatement() {
       {/* Statement */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="font-heading font-500 text-2xl sm:text-3xl lg:text-5xl text-white leading-[1.3]">
-          &ldquo;We don&rsquo;t just translate messages&thinsp;&mdash;&thinsp;we build the systems
+          &ldquo;We don&rsquo;t just translate messages. We build the systems
           that make marketing work across borders, languages, and cultures.&rdquo;
         </p>
         <div className="mt-10 flex items-center justify-center gap-3">

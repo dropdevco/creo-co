@@ -20,8 +20,8 @@ function formatDate(dateStr, endDateStr) {
     const endMonth = end.toLocaleString('en-US', { month: 'short' }).toUpperCase()
     return {
       month,
-      day: endMonth === month ? `${day}-${endDay}` : `${day}`,
-      full: `${d.toLocaleDateString('en-US', { month: 'long', day: 'numeric' })} – ${end.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`,
+      day: endMonth === month ? `${day} to ${endDay}` : `${day}`,
+      full: `${d.toLocaleDateString('en-US', { month: 'long', day: 'numeric' })} to ${end.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`,
     }
   }
 

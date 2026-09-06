@@ -12,15 +12,15 @@ const es = {
   hero: {
     tagline:    'Estrategia que Mueve Mercados.',
     tagline2:   'Resultados que Puedes Medir.',
-    sub:        'Creo & Co es una firma de marketing bilingüe construida para el Borderplex US-México, entregando estrategia, contenido y ejecución que convierte.',
+    sub:        'Creo & Co es una firma de marketing bilingüe construida para el Borderplex US México, entregando estrategia, contenido y ejecución que convierte.',
     cta1:       'Agenda una Llamada Gratis',
     cta2:       'Ver Nuestro Trabajo',
     badge:      'Bilingüe · Borderplex · Orientado a Resultados',
   },
   stats: {
     years:      'Años de servicio',
-    bilingual:  'Bilingüe inglés-español',
-    regions:    'Multi-Región',
+    bilingual:  'Bilingüe inglés y español',
+    regions:    'Multirregión',
     strategic:  'Visión estratégica',
   },
   trust: {
@@ -109,7 +109,7 @@ const es = {
       },
       {
         title: 'Sector Privado',
-        scope: 'Trabajo Multi-Industria',
+        scope: 'Trabajo en Múltiples Industrias',
         points: [
           'Narrativa alineada a ingresos',
           'Diferenciación de mercado',
@@ -123,7 +123,7 @@ const es = {
   borderplex: {
     heading:  'La Ventaja del Borderplex',
     sub:      'No traducimos. Comunicamos.',
-    body:     'La región fronteriza US-México es uno de los corredores económicos más dinámicos de América del Norte. Creo & Co fue construida aquí. Entendemos la cultura, el comercio, el idioma y la oportunidad. Nuestro enfoque binacional le da a tu marca una presencia genuina en ambos lados, no una traducción copia-pega.',
+    body:     'La región fronteriza US México es uno de los corredores económicos más dinámicos de América del Norte. Creo & Co fue construida aquí. Entendemos la cultura, el comercio, el idioma y la oportunidad. Nuestro enfoque binacional le da a tu marca una presencia genuina en ambos lados, no una traducción de copiar y pegar.',
     points: [
       'Mensajes bilingües auténticos (EN/ES)',
       'Inteligencia de mercado transfronteriza',

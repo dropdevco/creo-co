@@ -3,7 +3,7 @@
 export const SAMPLE_EVENTS = [
   {
     id: 1,
-    title: 'J&K Detour Vol. 03 - A Night at the Air Museum',
+    title: 'J&K Detour Vol. 03: A Night at the Air Museum',
     date: '2026-06-06',
     location: 'War Eagles Air Museum, 8012 Airport Rd, Santa Teresa, NM 88008',
     category: 'Concert',
@@ -16,7 +16,7 @@ export const SAMPLE_EVENTS = [
     date: '2026-07-18',
     location: 'See event page',
     category: 'Aviation',
-    description: '8:00 AM - 12:00 PM. A unique aviation experience combining flights and scenic views.',
+    description: '8:00 AM to 12:00 PM. A unique aviation experience combining flights and scenic views.',
     registerUrl: 'https://www.eventbrite.com/e/flights-sights-july-18-2026-tickets-1985906182852',
   },
   {
@@ -26,7 +26,7 @@ export const SAMPLE_EVENTS = [
     endDate: '2026-06-26',
     location: 'War Eagles Air Museum, 8012 Airport Rd, Santa Teresa, NM 88008',
     category: 'Aviation',
-    description: 'A week-long summer camp focused on STEAM education through the lens of aviation and aerospace.',
+    description: 'A week long summer camp focused on STEAM education through the lens of aviation and aerospace.',
     registerUrl: 'https://www.eventbrite.com/e/2026-aviation-summer-camp-tickets-1985770057698',
   },
   {
@@ -44,7 +44,7 @@ export const SAMPLE_EVENTS = [
     date: '2026-07-18',
     location: 'Biggs Army Airfield, Fort Bliss, TX',
     category: 'Air Show',
-    description: '8:00 AM - 11:00 AM. Join us in volunteering for the premier air show of the Borderplex region.',
+    description: '8:00 AM to 11:00 AM. Join us in volunteering for the premier air show of the Borderplex region.',
     registerUrl: 'https://www.amigoairsho.com/volunteer',
   },
   {
@@ -53,7 +53,7 @@ export const SAMPLE_EVENTS = [
     date: '2026-08-19',
     location: 'The Elmont Event Center, 240 W. Castellano Dr.',
     category: 'Air Show',
-    description: '5:30 PM - 7:30 PM. Volunteer meeting for Mountainstar Sports Group Amigo Airsho.',
+    description: '5:30 PM to 7:30 PM. Volunteer meeting for Mountainstar Sports Group Amigo Airsho.',
     registerUrl: 'https://www.amigoairsho.com/volunteer',
   },
   {
@@ -62,7 +62,7 @@ export const SAMPLE_EVENTS = [
     date: '2026-08-27',
     location: 'See event page',
     category: 'Economic Development',
-    description: '10:00 AM - 3:30 PM. Inspire & Innovate: Economic Development Summit 2026 hosted by Project Vida.',
+    description: '10:00 AM to 3:30 PM. Inspire & Innovate: Economic Development Summit 2026 hosted by Project Vida.',
     registerUrl: 'https://www.eventbrite.com/e/inspire-innovate-economic-development-summit-2026-tickets-1993478209989',
   },
   {
@@ -71,7 +71,7 @@ export const SAMPLE_EVENTS = [
     date: '2026-09-16',
     location: 'The Elmont Event Center, 240 W. Castellano Dr.',
     category: 'Air Show',
-    description: '5:30 PM - 7:30 PM. Volunteer meeting for Mountainstar Sports Group Amigo Airsho.',
+    description: '5:30 PM to 7:30 PM. Volunteer meeting for Mountainstar Sports Group Amigo Airsho.',
     registerUrl: 'https://www.amigoairsho.com/volunteer',
   },
   {
@@ -80,7 +80,7 @@ export const SAMPLE_EVENTS = [
     date: '2026-10-08',
     location: 'The Elmont Event Center, 240 W. Castellano Dr.',
     category: 'Air Show',
-    description: '5:30 PM - 7:30 PM. Volunteer meeting for Mountainstar Sports Group Amigo Airsho.',
+    description: '5:30 PM to 7:30 PM. Volunteer meeting for Mountainstar Sports Group Amigo Airsho.',
     registerUrl: 'https://www.amigoairsho.com/volunteer',
   },
   {
@@ -89,7 +89,7 @@ export const SAMPLE_EVENTS = [
     date: '2026-10-11',
     location: 'See event page',
     category: 'Car Show',
-    description: '12:00 PM - 4:00 PM. Exotic car show presented by Spotted El Paso.',
+    description: '12:00 PM to 4:00 PM. Exotic car show presented by Spotted El Paso.',
     registerUrl: 'https://www.spottedep.com/',
   },
   {
@@ -99,7 +99,7 @@ export const SAMPLE_EVENTS = [
     endDate: '2026-10-25',
     location: 'See event page',
     category: 'Air Show',
-    description: '9:00 AM - 5:00 PM. Mountainstar Sports Group Amigo Airsho.',
+    description: '9:00 AM to 5:00 PM. Mountainstar Sports Group Amigo Airsho.',
     registerUrl: 'https://www.amigoairsho.com/tickets',
   },
 ]

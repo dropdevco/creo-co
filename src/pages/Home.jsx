@@ -17,11 +17,11 @@ export default function Home() {
       <Hero />
       <TrustBar />
       <Services />
+      <Gallery />
       <Industries />
       <FullStatement />
       <CaseStudies />
       <Borderplex />
-      <Gallery />
       {/* PENDING: Unhide when client provides testimonials */}
       {/* <Testimonials /> */}
       <Events limit={3} />
