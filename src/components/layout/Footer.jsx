@@ -68,7 +68,7 @@ export default function Footer() {
 
           {/* Company links */}
           <div>
-            <h3 className="font-accent font-600 text-sm uppercase tracking-wider text-creo-charcoal/40 mb-4">
+            <h3 className="font-accent font-600 text-sm uppercase tracking-wider text-creo-charcoal/70 mb-4">
               {t.footer.links.company}
             </h3>
             <ul className="space-y-2.5" role="list">
@@ -87,7 +87,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-accent font-600 text-sm uppercase tracking-wider text-creo-charcoal/40 mb-4">
+            <h3 className="font-accent font-600 text-sm uppercase tracking-wider text-creo-charcoal/70 mb-4">
               {t.footer.links.services}
             </h3>
             <ul className="space-y-2.5" role="list">
@@ -101,7 +101,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-accent font-600 text-sm uppercase tracking-wider text-creo-charcoal/40 mb-4">
+            <h3 className="font-accent font-600 text-sm uppercase tracking-wider text-creo-charcoal/70 mb-4">
               {t.footer.links.connect}
             </h3>
             <ul className="space-y-2.5 font-body text-sm text-creo-charcoal/70" role="list">
@@ -132,9 +132,9 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-creo-dark/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="font-body text-xs text-creo-charcoal/40">{t.footer.legal}</p>
+          <p className="font-body text-xs text-creo-charcoal/70">{t.footer.legal}</p>
           <div className="flex gap-6">
-            <Link to="/privacy" className="font-body text-xs text-creo-charcoal/40 hover:text-creo-charcoal/80 transition-colors cursor-pointer">
+            <Link to="/privacy" className="font-body text-xs text-creo-charcoal/70 hover:text-creo-charcoal/80 transition-colors cursor-pointer">
               {t.footer.privacy}
             </Link>
           </div>

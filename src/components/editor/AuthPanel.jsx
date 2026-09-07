@@ -47,7 +47,7 @@ export default function AuthPanel({ onSignedIn, onClose }) {
           </button>
         </form>
         {onClose && (
-          <button onClick={onClose} aria-label="Close" className="text-white/50 hover:text-white transition-colors duration-200">
+          <button onClick={onClose} aria-label="Close" className="text-white/70 hover:text-white transition-colors duration-200">
             <X size={18} />
           </button>
         )}

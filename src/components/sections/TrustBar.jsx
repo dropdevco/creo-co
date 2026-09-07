@@ -35,9 +35,9 @@ export default function TrustBar() {
   const repeated = [...PARTNERS, ...PARTNERS]
 
   return (
-    <section className="bg-white border-y border-creo-border py-12 overflow-hidden">
+    <section id="trust-bar" className="bg-white border-y border-creo-border py-12 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 mb-8 text-center">
-        <p className="font-accent text-xs text-creo-charcoal/50 uppercase tracking-[0.3em]">
+        <p className="font-accent text-xs text-creo-charcoal/70 uppercase tracking-[0.3em]">
           {t.trust.heading}
         </p>
       </div>

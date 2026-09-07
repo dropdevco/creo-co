@@ -47,7 +47,7 @@ export default function CTASection() {
               {t.cta.primary} <ArrowRight size={18} aria-hidden="true" />
             </a>
 
-            <p className="font-body text-creo-charcoal/50 text-sm mt-6 flex items-center gap-2">
+            <p className="font-body text-creo-charcoal/70 text-sm mt-6 flex items-center gap-2">
               <Mail size={14} aria-hidden="true" />
               {t.cta.secondary}
             </p>

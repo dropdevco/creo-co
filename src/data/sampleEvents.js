@@ -8,7 +8,7 @@ export const SAMPLE_EVENTS = [
     location: 'War Eagles Air Museum, 8012 Airport Rd, Santa Teresa, NM 88008',
     category: 'Concert',
     description: 'An evening experience at the War Eagles Air Museum featuring live music and community gathering.',
-    registerUrl: '#',
+    registerUrl: 'https://www.wareaglesairmuseum.com/',
   },
   {
     id: 2,

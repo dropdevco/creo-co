@@ -6,6 +6,7 @@ import { useEditMode } from '../contexts/EditModeContext'
 import ScrollReveal from '../components/ui/ScrollReveal'
 import CTASection from '../components/sections/CTASection'
 import nightSkyline from '../assets/hero/el_paso_night_skyline.jpg'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 const CATEGORIES = ['All', 'Concert', 'Aviation', 'Networking', 'Air Show', 'Economic Development', 'Car Show']
 
@@ -43,6 +44,12 @@ const CAT_COLORS = {
 
 export default function EventsPage() {
   const { t } = useLang()
+
+  usePageMeta({
+    title: 'Events',
+    description: 'From community activations to investor forums, see the events Creo & Co. supports across the Borderplex region.',
+  })
+
   const [filter, setFilter] = useState('All')
   const allEvents = useEvents() || []
   const { authed, openSignIn } = useEditMode()
@@ -215,7 +222,7 @@ export default function EventsPage() {
                                   {event.category}
                                 </span>
                               </div>
-                              <p className="font-body text-sm text-creo-charcoal/50 flex items-center gap-1.5 mb-2">
+                              <p className="font-body text-sm text-creo-charcoal/70 flex items-center gap-1.5 mb-2">
                                 <MapPin size={13} aria-hidden="true" /> {event.location}
                               </p>
                               <p className="font-body text-base text-creo-charcoal/65">{event.description}</p>

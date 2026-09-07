@@ -9,6 +9,7 @@ import headshotPaula from '../assets/team/paula-castro.jpg'
 import heroAbout from '../assets/hero/elpaso2023_andyaustin-5613.jpg'
 import poppiesImg from '../assets/hero/franklin_mountains_poppies.jpg'
 import logoMonogramWhite from '../assets/logos/Creo&Co_Monogram_White.svg'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 const FLIP_COLORS = [
   { bg: 'bg-creo-primary', text: 'text-white' },
@@ -50,6 +51,11 @@ function FlipCard({ title, description, index }) {
 
 export default function AboutPage() {
   const { t } = useLang()
+
+  usePageMeta({
+    title: 'About Us',
+    description: 'Creo & Co. was built to move businesses forward with clear, systems-driven marketing strategy across the binational Borderplex region.',
+  })
 
   return (
     <>

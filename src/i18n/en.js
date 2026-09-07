@@ -221,7 +221,42 @@ const en = {
       rachel: { name: 'Rachel Ortiz', role: 'Director of Operations' },
       paula: { name: 'Paula J. Castro', role: 'Marketing & Strategy Operations Intern' },
     }
-  }
+  },
+  notFound: {
+    heading: 'Page not found.',
+    body: 'The page you are looking for does not exist or may have moved.',
+    cta: 'Back to Home',
+  },
+  privacy: {
+    heading: 'Privacy Policy',
+    updated: 'Last updated: September 2026',
+    sections: [
+      {
+        title: 'Overview',
+        body: 'Creo & Co. ("we," "us," or "our") respects your privacy. This policy explains what information we collect through creoandco.com, how we use it, and who we share it with.',
+      },
+      {
+        title: 'Information We Collect',
+        body: 'When you submit our contact or booking forms, we collect the information you provide, such as your name, email address, phone number, and message. We do not currently use analytics or advertising cookies on this site.',
+      },
+      {
+        title: 'Third Party Services',
+        body: 'Our contact and booking forms are powered by an outside scheduling and forms provider (LayerOne). When you use those forms, your information is processed according to that provider’s own privacy practices. Our event calendar is powered by Sanity, a content management platform, and does not collect personal information from visitors browsing events.',
+      },
+      {
+        title: 'How We Use Your Information',
+        body: 'We use the information you submit to respond to your inquiry, schedule calls, and provide the services you request. We do not sell your personal information to third parties.',
+      },
+      {
+        title: 'Your Choices',
+        body: 'You may contact us at any time to ask what information we hold about you or to request that it be deleted.',
+      },
+      {
+        title: 'Contact Us',
+        body: 'Questions about this policy can be sent to hello@creoandco.com.',
+      },
+    ],
+  },
 }
 
 export default en

@@ -45,7 +45,7 @@ export default function FullStatement() {
         </p>
         <div className="mt-10 flex items-center justify-center gap-3">
           <div className="w-10 h-px bg-white/30" />
-          <span className="font-accent text-xs uppercase tracking-[0.3em] text-white/50">Creo & Co.</span>
+          <span className="font-accent text-xs uppercase tracking-[0.3em] text-white/70">Creo & Co.</span>
           <div className="w-10 h-px bg-white/30" />
         </div>
       </div>

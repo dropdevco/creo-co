@@ -10,8 +10,14 @@ import Gallery from '../components/sections/Gallery'
 // import Testimonials from '../components/sections/Testimonials'
 import Events from '../components/sections/Events'
 import CTASection from '../components/sections/CTASection'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 export default function Home() {
+  usePageMeta({
+    title: 'Marketing Strategy & Execution',
+    description: 'Creo & Co. is a bilingual marketing firm built for the Borderplex, delivering strategy, content, and execution that converts.',
+  })
+
   return (
     <main>
       <Hero />

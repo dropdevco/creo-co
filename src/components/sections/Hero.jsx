@@ -178,7 +178,7 @@ export default function Hero() {
               }
             }
           }}
-          className={`absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-white/50 hover:text-white transition-all duration-500 cursor-pointer
+          className={`absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-white/70 hover:text-white transition-all duration-500 cursor-pointer
             ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
           aria-label="Scroll down"
         >

@@ -52,7 +52,7 @@ export default function CaseStudies() {
                     </h3>
                   </div>
                   {sector.scope && (
-                    <p className="font-body text-sm text-creo-charcoal/50 mb-5">{sector.scope}</p>
+                    <p className="font-body text-sm text-creo-charcoal/70 mb-5">{sector.scope}</p>
                   )}
                   {!sector.scope && <div className="mb-5" />}
 

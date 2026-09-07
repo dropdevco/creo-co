@@ -221,6 +221,41 @@ const es = {
     legal:    '© 2025 Creo & Co. Todos los derechos reservados.',
     privacy:  'Política de Privacidad',
   },
+  notFound: {
+    heading: 'Página no encontrada.',
+    body: 'La página que buscas no existe o pudo haber sido movida.',
+    cta: 'Volver al Inicio',
+  },
+  privacy: {
+    heading: 'Política de Privacidad',
+    updated: 'Última actualización: septiembre de 2026',
+    sections: [
+      {
+        title: 'Resumen',
+        body: 'Creo & Co. ("nosotros" o "nuestro") respeta tu privacidad. Esta política explica qué información recopilamos a través de creoandco.com, cómo la usamos y con quién la compartimos.',
+      },
+      {
+        title: 'Información que Recopilamos',
+        body: 'Cuando envías nuestros formularios de contacto o de reservación, recopilamos la información que proporcionas, como tu nombre, correo electrónico, número de teléfono y mensaje. Actualmente no usamos cookies de análisis ni publicidad en este sitio.',
+      },
+      {
+        title: 'Servicios de Terceros',
+        body: 'Nuestros formularios de contacto y reservación son administrados por un proveedor externo de formularios y agenda (LayerOne). Al usar esos formularios, tu información se procesa según las prácticas de privacidad de ese proveedor. Nuestro calendario de eventos es administrado por Sanity, una plataforma de gestión de contenido, y no recopila información personal de quienes navegan los eventos.',
+      },
+      {
+        title: 'Cómo Usamos tu Información',
+        body: 'Usamos la información que envías para responder tu consulta, agendar llamadas y ofrecerte los servicios que solicitas. No vendemos tu información personal a terceros.',
+      },
+      {
+        title: 'Tus Opciones',
+        body: 'Puedes contactarnos en cualquier momento para preguntar qué información tenemos sobre ti o para solicitar que sea eliminada.',
+      },
+      {
+        title: 'Contáctanos',
+        body: 'Preguntas sobre esta política pueden enviarse a hello@creoandco.com.',
+      },
+    ],
+  },
 }
 
 export default es
