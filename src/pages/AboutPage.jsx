@@ -54,7 +54,7 @@ export default function AboutPage() {
 
   usePageMeta({
     title: 'About Us',
-    description: 'Creo & Co. was built to move businesses forward with clear, systems-driven marketing strategy across the binational Borderplex region.',
+    description: 'Creo & Co. was built to move businesses forward with clear marketing strategy grounded in systems thinking across the binational Borderplex region.',
   })
 
   return (
