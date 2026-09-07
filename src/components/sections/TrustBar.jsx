@@ -13,6 +13,10 @@ import logoAirsho from '../../assets/partners/MTST&AirSho-Final (1).jpg'
 import logoGhostlight from '../../assets/partners/Ghostlight Creative.png'
 import logoBodega from '../../assets/partners/Bodega Loya Logo (1).png'
 import logoTBG from '../../assets/partners/TBG-Logo-Full Color-Small (1) (2).png'
+import logoSwanStudios from '../../assets/partners/Swan Studios.webp'
+import logoElementSeven from '../../assets/partners/Element Seven.png'
+import logoSomosFrontera from '../../assets/partners/Somos Frontera.png'
+import logoScienceFestival from '../../assets/partners/El Paso Science Festival.png'
 
 const PARTNERS = [
   { name: 'Borderplex Community Capital', src: logoBordeplexCapital },
@@ -28,6 +32,10 @@ const PARTNERS = [
   { name: 'Ghostlight Creative', src: logoGhostlight },
   { name: 'Bodega Loya', src: logoBodega },
   { name: 'TBG', src: logoTBG },
+  { name: 'Swan Studios', src: logoSwanStudios },
+  { name: 'Element Seven', src: logoElementSeven },
+  { name: 'Somos Frontera', src: logoSomosFrontera },
+  { name: 'El Paso Science Festival', src: logoScienceFestival },
 ]
 
 export default function TrustBar() {
